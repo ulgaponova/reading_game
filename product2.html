@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <script>
+        function change_image(src, id) {
+            const elem = document.getElementById(id);
+            elem.src = src;
+        }    
+    </script>
+    <div class="container">
+        <div class="product-logo">
+            <a href="index.html"> <img src="images/Logo2.svg"></a>
+        </div>
+        <div class="product-wrap">
+            <div class="content">
+                <div>
+                    <img src="images/T1.png" class="product-big" id="lb1" />
+                    <br />
+                    <img src="images/T1.png" class="product-small" onclick="change_image('images/T1.png', 'lb1')" />
+                    <img src="images/T2.png" class="product-small" onclick="change_image('images/T2.png', 'lb1')" />
+                    <img src="images/T3.png" class="product-small" onclick="change_image('images/T3.png', 'lb1')" />
+                    <img src="images/T4.png" class="product-small" onclick="change_image('images/T4.png', 'lb1')" />
+                </div>
+            </div>
+            <div class="product-text">
+                <h4>Настільна гра Тукан-Повторян</h4>
+                <h5> 430 грн.</h5>
+                <p>Гра охоплює всі можливі буквосполучення приголосних з голосними І та И, тобто весь ряд від БІ та БИ
+                    до ЩІ та ЩИ. Не
+                    включені лише буквосполучення ЙІ, ЙИ, бо в українській мові вони практично не зустрічаються. Разом
+                    це складає 40
+                    парних карт.</p>
+                <p> Правила гри: діти викладають 4 карти і намагаються швидко-швидко прочитати утворене мімішне слово.
+                    Якщо щось не
+                    вдається, то картку забирають як фант, а потім вигадують кумедні завдання.</p>
+                <p> Мета гри: зібрати якнайменшу кількість штрафних карток.</p>
+                <div class="product-items">
+                    <div class="item1">
+                        <img src="images/icon1.svg">
+                        <p> 10-20 хвилин</p>
+                    </div>
+                    <div class="item2">
+                        <img src="images/icon2.svg">
+                        <p>2-4 гравця; для дітей від 5 років;</p>
+                    </div>
+                    <div class="item3">
+                        <img src="images/icon3.svg">
+                        <p>розмір коробки: 113х60х33 мм; <br />
+                            розмір картки 100х55 мм</p>
+                    </div>
+                    <div class="button"><a href="order.html" class="btn">Замовити</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
